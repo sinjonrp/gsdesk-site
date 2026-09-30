@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="GSdesk — 行政書士のための案件管理・請求書発行アプリ。">
+<title>GSdesk | 行政書士のための業務デスク</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  * { margin: 0; }
+  :root {
+    --brand: #1F5E3D; --accent: #43A047; --bg: #F4F7F4; --surface: #FFFFFF;
+    --border: #D7E3D7; --text: #16211A; --text-muted: #51665A;
+    color-scheme: light;
+  }
+  body { background: var(--bg); color: var(--text); line-height: 1.85;
+    font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; }
+  header { background: var(--brand); color: #fff; padding: clamp(2.5rem,8vw,5rem) clamp(18px,5vw,44px); text-align: center; }
+  header h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); }
+  header p { opacity: 0.92; margin-top: 0.6rem; }
+  main { max-width: 720px; margin-inline: auto; padding: clamp(1.6rem,4vw,3rem) clamp(1.1rem,4vw,2.5rem) 4rem; }
+  h2 { font-size: 1.1rem; margin: 1.8rem 0 0.5rem; color: var(--brand); }
+  ul { padding-left: 1.4em; }
+  nav { margin-top: 2.5rem; display: flex; gap: 1.5rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>GSdesk</h1>
+  <p>行政書士のための案件管理・請求書発行アプリ</p>
+</header>
+<main>
+  <h2>できること</h2>
+  <ul>
+    <li>案件（顧客・件名）の登録と一覧管理</li>
+    <li>インボイス制度対応の請求書作成と PDF 出力（印刷・共有）</li>
+    <li>立替金を課税対象と分けて記載する、行政書士業務に合わせた帳票様式</li>
+  </ul>
+  <h2>データの取り扱い</h2>
+  <p>データはすべて端末内に保存され、外部サーバーには送信されません。</p>
+  <nav>
+    <a href="./privacy.html">プライバシーポリシー</a>
+    <a href="./support.html">サポート</a>
+  </nav>
+</main>
+</body>
+</html>

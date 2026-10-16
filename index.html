@@ -23,6 +23,10 @@
   ul { padding-left: 1.4em; }
   nav { margin-top: 2.5rem; display: flex; gap: 1.5rem; }
   a { color: var(--accent); }
+  .video-frame { aspect-ratio: 16 / 9; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .video-frame video { display: block; width: 100%; height: 100%; }
+  #video p { margin-top: 0.6rem; }
+  #video .video-note { margin-top: 0.1rem; color: var(--text-muted); font-size: 0.9rem; }
 </style>
 </head>
 <body>
@@ -31,6 +35,17 @@
   <p>行政書士のための案件管理・請求書発行アプリ</p>
 </header>
 <main>
+  <section id="video">
+    <h2>動画でわかる GSdesk</h2>
+    <div class="video-frame">
+      <video controls playsinline preload="none" poster="assets/promo/gsdesk-promo-poster.jpg" width="1280" height="720" aria-label="GSdesk の紹介動画">
+        <source src="assets/promo/gsdesk-promo.mp4" type="video/mp4">
+        <p>この環境では動画を再生できません。<a href="assets/promo/gsdesk-promo.mp4">動画のファイル（MP4）</a>を開いてください。</p>
+      </video>
+    </div>
+    <p>案件の登録から、税込合計の自動計算、請求書の PDF まで、使い方を短くご紹介します。</p>
+    <p class="video-note">約1分24秒・音声あり・自動では再生しません</p>
+  </section>
   <h2>できること</h2>
   <ul>
     <li>案件（顧客・件名）の登録と一覧管理</li>
